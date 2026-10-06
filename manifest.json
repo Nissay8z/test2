@@ -1,0 +1,22 @@
+{
+  "name": "Nissay's Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "anime-sama",
+      "name": "Anime-Sama",
+      "description": "Anime-Sama VF/VOSTFR — catalogue français",
+      "version": "1.0.0",
+      "author": "Nissay8z",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/anime-sama.js",
+      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/Anime-Sama/IMG/img/autres/logo.png",
+      "contentLanguage": ["fr"],
+      "formats": ["mp4", "m3u8"],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false
+    }
+  ]
+}
